@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asimovian&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav" class="animate__animated animate__flash">
+            <div id="fnav">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Lookbook</a>
+            </div>
+            <h2>NARUTO</h2>
+            <div id="snav">
+                <a href="#">About</a>
+                <a href="#">News</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+        <!-- nav finished -->
+        <h1 id="maintext" class="animate__animated animate__flash animate__delay-1s">DATTEBAYO!</h1>
+        <div id="righttxt" class="animate__animated animate__slideInLeft animate__delay-2s">
+            <h4 id="righthead">Product details</h4>
+            <p>Lorem, ipsum dolor elit. 
+                Dolore optio voluptatibus omnis excepturi odit!</p>
+        </div>
+        <div id="imgs" style="display: none;">
+            <!-- <img src="https://i.pinimg.com/736x/d9/ad/8f/d9ad8fe8ce77b4c8f94fe0ecd14cde38.jpg" alt="img2" height="200px"> -->
+            <img src="https://i.pinimg.com/1200x/20/a4/fa/20a4fa16edf5287ab0a0034a7ebd5e09.jpg" alt="img1" height="145px" class="animate__animated animate__flip">
+        </div>
+        <div id="btmright" class="animate__animated animate__flash animate__delay-3s">
+            <i class="fa-solid fa-volume-high"></i>
+        </div>
+        <div id="btmleft" class="animate__animated animate__flash animate__delay-3s">
+            <h3>New Episodes!</h3>
+        </div>
+    </div>
+</body>
+
+<script>
+    setTimeout(() => {
+        document.getElementById("imgs").style.display = "block";
+    }, 4000);
+</script>
+
+</html>
